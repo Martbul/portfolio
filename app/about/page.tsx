@@ -4,7 +4,6 @@ export default function AboutPage() {
    return (
      <>
        <section className="relative px-6 py-24 border-b border-zinc-200 dark:border-zinc-800 overflow-hidden bg-zinc-50 dark:bg-zinc-900">
-         {/* Vertical Lines */}
          <div className="absolute inset-0 opacity-5 dark:opacity-10">
            <div className="absolute top-0 left-0 w-px h-full bg-current" />
            <div className="absolute top-0 left-20 w-px h-full bg-current" />
@@ -99,7 +98,6 @@ const TechnologiesSection: React.FC = () => {
         </div>
 
         <div className="space-y-12">
-          {/* Frontend Development */}
           <div
             className="animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "0ms" }}
@@ -114,7 +112,6 @@ const TechnologiesSection: React.FC = () => {
               </span>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-              {/* React.js */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "0ms" }}
@@ -125,7 +122,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
                 <div className="relative p-4 text-center">
                   <div className="flex items-center justify-center mb-3">
-                    {/* Placeholder React icon */}
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -134,7 +130,6 @@ const TechnologiesSection: React.FC = () => {
                       className="w-8 h-8 group-hover:scale-110 transition-transform duration-300"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      {/* Insert React icon paths here */}
                       <circle cx="12" cy="12" r="2" fill="currentColor" />
                     </svg>
                   </div>
@@ -144,7 +139,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Next.js */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "50ms" }}
@@ -155,7 +149,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
                 <div className="relative p-4 text-center">
                   <div className="flex items-center justify-center mb-3">
-                    {/* Placeholder Next.js icon */}
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -167,7 +160,6 @@ const TechnologiesSection: React.FC = () => {
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      {/* Insert Next.js icon paths here */}
                       <path d="M5 3v18l14-9L5 3z" />
                     </svg>
                   </div>
@@ -177,7 +169,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Tailwind CSS */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "100ms" }}
@@ -188,8 +179,8 @@ const TechnologiesSection: React.FC = () => {
                 </div>
                 <div className="relative p-4 text-center">
                   <div className="flex items-center justify-center mb-3">
-                    {/* Tailwind icon */}
-                    <svg
+
+                             <svg
                       stroke="currentColor"
                       fill="currentColor"
                       strokeWidth={0}
@@ -201,7 +192,6 @@ const TechnologiesSection: React.FC = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       style={{ color: "rgb(6, 182, 212)" }}
                     >
-                      {/* Placeholder path */}
                       <path d="M2 12C8 2 16 2 22 12C16 22 8 22 2 12Z" />
                     </svg>
                   </div>
@@ -211,7 +201,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Framer Motion */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "150ms" }}
@@ -222,7 +211,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
                 <div className="relative p-4 text-center">
                   <div className="flex items-center justify-center mb-3">
-                    {/* Framer Motion icon */}
                     <svg
                       stroke="currentColor"
                       fill="none"
@@ -246,7 +234,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* JavaScript */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "200ms" }}
@@ -257,7 +244,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
                 <div className="relative p-4 text-center">
                   <div className="flex items-center justify-center mb-3">
-                    {/* JavaScript icon */}
                     <svg
                       stroke="none"
                       fill="currentColor"
@@ -281,7 +267,6 @@ const TechnologiesSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Backend Development */}
           <div
             className="animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "100ms" }}
@@ -296,7 +281,6 @@ const TechnologiesSection: React.FC = () => {
               </span>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-              {/* Node.js */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "0ms" }}
@@ -307,7 +291,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
                 <div className="relative p-4 text-center">
                   <div className="flex items-center justify-center mb-3">
-                    {/* Node.js icon */}
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -329,7 +312,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Express.js */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "50ms" }}
@@ -340,7 +322,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
                 <div className="relative p-4 text-center">
                   <div className="flex items-center justify-center mb-3">
-                    {/* Placeholder Express.js icon */}
                     <svg
                       stroke="currentColor"
                       fill="none"
@@ -365,7 +346,6 @@ const TechnologiesSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* MongoDB */}
               <div
                 className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-500"
                 style={{ animationDelay: "100ms" }}
@@ -405,7 +385,13 @@ const TechnologiesSection: React.FC = () => {
 };
 
 
-export const OnlinePresenceSection: React.FC = () => {
+
+
+
+
+ 
+
+ const OnlinePresenceSection: React.FC = () => {
   return (
     <section className="relative px-6 py-20 border-t border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900">
       <div className="absolute inset-0 opacity-5 dark:opacity-10">
@@ -495,7 +481,7 @@ export const OnlinePresenceSection: React.FC = () => {
             </a>
           </div>
 
-          {/* Cloudflare */}
+              
           <div
             className="animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "150ms" }}
@@ -559,8 +545,11 @@ export const OnlinePresenceSection: React.FC = () => {
             </a>
           </div>
 
-          {/* LinkedIn */}
-          <div
+   
+   
+   
+   
+              <div
             className="animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "300ms" }}
           >
@@ -626,6 +615,7 @@ export const OnlinePresenceSection: React.FC = () => {
 
 
 
+
 const EducationSection: React.FC = () => {
   return (
     <section className="relative px-6 py-20 border-t border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
@@ -654,7 +644,6 @@ const EducationSection: React.FC = () => {
         </div>
 
         <div className="space-y-8">
-          {/* Bachelor Degree */}
           <div
             className="group relative overflow-hidden bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "0ms" }}
@@ -735,8 +724,7 @@ const EducationSection: React.FC = () => {
 
 
 
-
-export  function RecognitionSection() {
+ function RecognitionSection() {
   return (
     <section className="relative px-6 py-20 border-t border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900">
       <div className="absolute inset-0 opacity-5 dark:opacity-10">
@@ -761,7 +749,6 @@ export  function RecognitionSection() {
           </h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2">
-          {/* Card 1 */}
           <div
             className="group relative overflow-hidden bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "0ms" }}
@@ -809,7 +796,6 @@ export  function RecognitionSection() {
             </div>
           </div>
 
-          {/* Card 2 */}
           <div
             className="group relative overflow-hidden bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "150ms" }}
@@ -855,7 +841,6 @@ export  function RecognitionSection() {
             </div>
           </div>
 
-          {/* Card 3 */}
           <div
             className="group relative overflow-hidden bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "300ms" }}
@@ -902,7 +887,6 @@ export  function RecognitionSection() {
             </div>
           </div>
 
-          {/* Card 4 */}
           <div
             className="group relative overflow-hidden bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 transition-all duration-700 hover:border-zinc-300 dark:hover:border-zinc-700 animate-in fade-in duration-700 slide-in-from-bottom-4"
             style={{ animationDelay: "450ms" }}

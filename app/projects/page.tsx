@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Projects() {
    return (
      <>
@@ -256,21 +258,12 @@ const ProjectsSection: React.FC = () => {
           </div>
 
           <div className="relative aspect-video w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-            <img
+            <Image
               alt="Nepali Educate"
               loading="lazy"
               decoding="async"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
               sizes="100vw"
-              srcSet="
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=640&q=75 640w,
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=750&q=75 750w,
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=828&q=75 828w,
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=1080&q=75 1080w,
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=1200&q=75 1200w,
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=1920&q=75 1920w,
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=2048&q=75 2048w,
-                /_next/image?url=%2Fprojects%2Fnepali-educate.png&w=3840&q=75 3840w"
               src="/projects/nepali-educate.png"
             //   decoding="async"
             />

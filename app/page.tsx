@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -9,8 +9,7 @@ import SelectedProjects from "@/sections/selectedProjects/SelectedProjects";
 import SkillsAndTechnologies from "@/sections/skillsAndTechnologies/SkillsAndTechnologies";
 import { GitHubActivity } from "@/sections/githubActivity/GitHubActivity";
 import ConnectSection from "@/sections/connect/Connect";
-import Footer from "@/sections/footer/Footer";
-import Navbar from "@/sections/navigation/Navigation";
+
 
 const Portfolio = () => {
   const GridOverlay = () => (
@@ -274,7 +273,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.map((article, i) => (
+            {articles.map((article) => (
               <div
                 key={article.href}
                 className="animate-in fade-in duration-700 slide-in-from-bottom-4"
@@ -289,7 +288,7 @@ const Portfolio = () => {
                     <div className="absolute top-0 right-0 w-px h-full bg-current"></div>
                   </div>
                   <div className="relative aspect-video w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-                    <img
+                    <Image
                       alt={article.imageAlt}
                       loading="lazy"
                       decoding="async"
@@ -337,7 +336,7 @@ const Portfolio = () => {
                           data-state="closed"
                           aria-label={`Author: ${article.authorName}`}
                         >
-                          <img
+                          <Image
                             className="aspect-square h-full w-full"
                             alt={article.authorName}
                             src={article.authorImg}

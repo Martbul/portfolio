@@ -24,7 +24,7 @@ export default function ContactSection() {
                   <div className="flex items-center justify-center gap-4 mb-8 animate-in fade-in duration-700 delay-200">
                     <div className="w-8 h-px bg-zinc-300 dark:bg-zinc-700" />
                     <span className="text-sm tracking-wider uppercase text-zinc-500 dark:text-zinc-400 font-mono">
-                      Let's Connect
+                      Let&apos;s Connect
                     </span>
                     <div className="w-8 h-px bg-zinc-300 dark:bg-zinc-700" />
                   </div>
@@ -34,9 +34,9 @@ export default function ContactSection() {
                     <span className="font-serif italic">Touch</span>
                   </h1>
                   <p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 font-light leading-relaxed max-w-3xl mx-auto animate-in fade-in duration-700 delay-400">
-                    Have a project in mind or just want to chat? I'd love to
-                    hear from you. Let's discuss how we can bring your ideas to
-                    life.
+                    Have a project in mind or just want to chat? I&apos;d love
+                    to hear from you. Let&apos;s discuss how we can bring your
+                    ideas to life.
                   </p>
                 </div>
                 <div className="absolute bottom-8 left-8 opacity-20 dark:opacity-30">
